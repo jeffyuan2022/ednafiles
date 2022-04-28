@@ -32,8 +32,8 @@ public class MarkdownParse {
             if (closeParen == -1) {
                 break;
             }
-            char charBefore = markdown.charAt(openBracket - 1);
-            if (charBefore == '!') {
+
+            if (openBracket != 0 && markdown.charAt(openBracket - 1) == '!') {
                 currentIndex = closeParen + 1;
                 continue;
             }
