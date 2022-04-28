@@ -74,7 +74,7 @@ public class MarkdownParseTest {
 
     @Test
     public void getLinksFromFile8() throws IOException{
-        Path fileName = Path.of("/Users/ednaho/Documents/GitHub/ednafiles/test-file8.md");
+        Path fileName = Path.of("test-file8.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = new ArrayList<>();
         links.add("a link on the first line");
