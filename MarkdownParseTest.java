@@ -80,4 +80,13 @@ public class MarkdownParseTest {
         links.add("a link on the first line");
         assertEquals(links, MarkdownParse.getLinks(content));
     }
+
+    @Test
+    public void getLinksFromFile9() throws IOException{
+        Path fileName = Path.of("/Users/cathy/Documents/GitHub/ednafiles/test-file9.md");
+        String content = Files.readString(fileName);
+        ArrayList<String> links = new ArrayList<>();
+        links.add("a link on the first line");
+        assertEquals(links, MarkdownParse.getLinks(content));
+    }
 }
