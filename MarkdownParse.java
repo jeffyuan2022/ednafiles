@@ -42,6 +42,7 @@ public class MarkdownParse {
             //System.out.println(currentIndex);
         }
 //adding comment
+//adding yet another comment
         return toReturn;
     }
 //adding a comment for git command testing
