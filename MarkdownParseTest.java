@@ -89,9 +89,4 @@ public class MarkdownParseTest {
         links.add("a link");
         assertEquals(links, MarkdownParse.getLinks(content));
     }
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> e4e7348b499510da4f64cb24b04e02c54b94e292
