@@ -56,13 +56,13 @@ public class MarkdownParseTest {
         assertEquals(links, MarkdownParse.getLinks(content));
     }
 
-    @Test
+    /* @Test
     public void getLinksFromFile6() throws IOException{
         Path fileName = Path.of("test-file6.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = new ArrayList<>();
         assertEquals(links, MarkdownParse.getLinks(content));
-    }
+    }*/
 
     @Test
     public void getLinksFromFile7() throws IOException{
@@ -89,5 +89,9 @@ public class MarkdownParseTest {
         links.add("a link");
         assertEquals(links, MarkdownParse.getLinks(content));
     }
-    //change for makefile test
+<<<<<<< HEAD
+
 }
+=======
+}
+>>>>>>> e4e7348b499510da4f64cb24b04e02c54b94e292
